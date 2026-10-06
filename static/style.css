@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e9edf1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+/* =========================
+   CONTAINER CHAT
+========================= */
+
+.chat-container {
+    width: 450px;
+    height: 650px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.chat-header {
+    background: #1f2937;
+
+    color: white;
+
+    padding: 18px 20px;
+}
+
+.chat-header h2 {
+    margin: 0;
+
+    font-size: 20px;
+}
+
+.chat-header p {
+    margin: 5px 0 0;
+
+    font-size: 13px;
+
+    color: #d1d5db;
+}
+
+
+/* =========================
+   CHATBOX
+========================= */
+
+.chatbox {
+    flex: 1;
+
+    padding: 20px;
+
+    overflow-y: auto;
+
+    background: #f5f6f8;
+}
+
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message {
+    display: flex;
+
+    margin-bottom: 15px;
+}
+
+.message.bot {
+    justify-content: flex-start;
+}
+
+.message.user {
+    justify-content: flex-end;
+}
+
+
+/* =========================
+   BUBBLE
+========================= */
+
+.bubble {
+    max-width: 75%;
+
+    padding: 11px 14px;
+
+    border-radius: 15px;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* BOT */
+
+.bot .bubble {
+    background: white;
+
+    color: #222;
+
+    border: 1px solid #ddd;
+
+    border-bottom-left-radius: 4px;
+}
+
+
+/* USER */
+
+.user .bubble {
+    background: #1f2937;
+
+    color: white;
+
+    border-bottom-right-radius: 4px;
+}
+
+
+/* =========================
+   CONFIDENCE
+========================= */
+
+.info {
+    margin-top: 8px;
+
+    padding-top: 6px;
+
+    border-top: 1px solid #ddd;
+
+    font-size: 10px;
+
+    color: #888;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.input-area {
+    display: flex;
+
+    gap: 8px;
+
+    padding: 12px;
+
+    background: white;
+
+    border-top: 1px solid #ddd;
+}
+
+.input-area input {
+    flex: 1;
+
+    padding: 11px 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 20px;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+.input-area input:focus {
+    border-color: #1f2937;
+}
+
+.input-area button {
+    border: none;
+
+    padding: 0 18px;
+
+    border-radius: 20px;
+
+    background: #1f2937;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background: #111827;
+}
+
+
+/* =========================
+   HINT
+========================= */
+
+.hint {
+    text-align: center;
+
+    padding-bottom: 8px;
+
+    font-size: 11px;
+
+    color: #999;
+}
+
+
+/* =========================
+   ERROR
+========================= */
+
+.error {
+    color: #b91c1c;
+}

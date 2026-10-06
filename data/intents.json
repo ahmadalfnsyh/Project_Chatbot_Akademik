@@ -1,0 +1,272 @@
+{
+    "intents" : [
+        {
+            "tag" : "jadwal_kuliah",
+            "patterns": [
+                "Jadwal kuliah kapan?",
+                "Jadwal perkuliahan kapan?",
+                "Kapan jadwal kuliah?",
+                "Kuliah mulai kapan?",
+                "Kapan mulai kuliah?",
+                "Kapan masuk kuliah?",
+                "Mulai kuliah tanggal berapa?",
+                "Perkuliahan dimulai kapan?",
+                "Kapan perkuliahan dimulai?",
+                "Kapan kuliah dimulai?",
+                "Kuliah dimulai tanggal berapa?",
+                "Tanggal perkuliahan dimulai kapan?",
+                "Saya mau tahu jadwal kuliah",
+                "Info jadwal kuliah dong",
+                "Ada info jadwal kuliah?",
+                "Jadwal kuliah saya kapan?",
+                "Kuliah semester ini mulai kapan?"
+            ],
+            "responses" : [
+                "Perkuliahan tahun ajaran 2026/2027 dimulai pada tanggal 31 Agustus 2026 - 19 desember 2026."
+            ]
+        },
+        {
+            "tag": "jadwal_uts",
+            "patterns": [
+                "Kapan UTS?",
+                "UTS tanggal berapa?",
+                "Jadwal UTS kapan?",
+                "UTS dilaksanakan kapan?",
+                "Kapan pelaksanaan UTS?",
+                "UTS mulai kapan?",
+                "UTS bulan apa?",
+                "Pekan UTS kapan?",
+                "Kapan pekan UTS?",
+                "Tanggal UTS berapa?",
+                "Pelaksanaan UTS kapan?",
+                "UTS semester ini kapan?",
+                "Ujian tengah semester kapan?",
+                "Jadwal ujian tengah semester kapan?",
+                "Tanggal ujian tengah semester kapan?",
+                "Pekan ujian tengah semester kapan?",
+                "Minggu ujian tengah semester kapan?",
+                "Kapan ujian tengah semester dilaksanakan?",
+                "Ujian tengah semester dilaksanakan kapan?",
+                "UTS semester ini dilaksanakan kapan?",
+                "Ujian tengah semester kapan?",
+                "Kapan ujian tengah semester?",
+                "Ujian tengah semester mulai tanggal berapa?",
+                "Ujian tengah semester dilaksanakan kapan?",
+                "Ujian tengah semester semester ini kapan?",
+                "Saya mau tahu jadwal ujian tengah semester",
+                "Jadwal ujian tengah semester semester ini",
+                "Pelaksanaan ujian tengah semester kapan?",
+                "Ujian tengah semester tanggal berapa?",
+                "UTS dilaksanakan tanggal berapa ya?"
+            ],
+            "responses": [
+                "Pekan UTS berlangsung tanggal 19-24 Oktober 2026."
+            ]
+        },
+        {
+            "tag": "jadwal_uas",
+            "patterns": [
+                "Kapan UAS?",
+                "UAS tanggal berapa?",
+                "Jadwal UAS kapan?",
+                "UAS dilaksanakan kapan?",
+                "Kapan pelaksanaan UAS?",
+                "UAS mulai kapan?",
+                "UAS bulan apa?",
+                "Pekan UAS kapan?",
+                "Kapan pekan UAS?",
+                "Tanggal UAS berapa?",
+                "Pelaksanaan UAS kapan?",
+                "UAS semester ini kapan?",
+                "Ujian akhir semester kapan?",
+                "Jadwal ujian akhir semester kapan?",
+                "Tanggal ujian akhir semester kapan?",
+                "Pekan ujian akhir semester kapan?",
+                "Minggu ujian akhir semester kapan?",
+                "Kapan ujian akhir semester dilaksanakan?",
+                "Ujian akhir semester dilaksanakan kapan?",
+                "UAS semester ini dilaksanakan kapan?",
+                "Ujian akhir semester kapan?",
+                "Kapan ujian akhir semester?",
+                "Ujian akhir semester mulai tanggal berapa?",
+                "Ujian akhir semester dilaksanakan kapan?",
+                "Ujian akhir semester semester ini kapan?",
+                "Saya mau tahu jadwal ujian akhir semester",
+                "Jadwal ujian akhir semester semester ini",
+                "Pelaksanaan ujian akhir semester kapan?",
+                "Ujian akhir semester tanggal berapa?",
+                "UAS dilaksanakan tanggal berapa ya?",
+                "UAS dilaksanakan bulan apa?",
+                "UAS itu bulan apa?",
+                "UAS semester ini bulan apa?",
+                "UAS berlangsung bulan apa?",
+                "Pelaksanaan UAS bulan apa?",
+                "Ujian akhir semester bulan apa?",
+                "Ujian akhir semester dilaksanakan bulan apa?",
+                "Ujian akhir semester berlangsung bulan apa?",
+                "UAS diadakan bulan apa?",
+                "Jadwal UAS bulan apa?"
+            ],
+            "responses": [
+                "Pekan UAS berlangsung tanggal 14-19 Desember 2026."
+            ]
+        },
+        {
+            "tag": "syarat_wisuda",
+            "patterns": [
+                "Apa saja syarat wisuda?",
+                "Syarat Wisuda apa saja?",
+                "Syarat buat ikut wisuda apa aja ya?",
+                "Sebelum wisuda saya harus penuhi persyaratan apa saja?",
+                "Apakah saat ingin wisuda ada persyaratan khususnya?",
+                "Apa saja ketentuan untuk wisuda?",
+                "Persyaratan wisuda apa aja?",
+                "Syarat mengikuti wisuda apa?",
+                "Apa persyaratan wisuda?",
+                "Mahasiswa yang mau wisuda harus memenuhi syarat apa?",
+                "Apa syarat mahaiswa bisa wisuda?",
+                "Kalau mau wisuda harus memenuhi apa saja?",
+                "Kalau ingin wisuda apa saja syaratnya?",
+                "Mau ikut wisuda harus punya syarat apa?",
+                "Untuk bisa wisuda harus memenuhi apa?",
+                "Apa yang dibutuhkan supaya bisa wisuda?",
+                "Kalau mau ikut wisuda persyaratannya apa?",
+                "Sebelum ikut wisuda harus menyiapkan apa?",
+                "Apa saja yang harus disiapkan sebelum wisuda?",
+                "Mahasiswa yang mau wisuda harus memenuhi apa?",
+                "Untuk mengikuti wisuda perlu memenuhi apa saja?",
+                "Ketentuan untuk mengikuti wisuda apa saja?",
+                "Syarat supaya bisa ikut wisuda apa?"
+            ],
+            "responses": [
+                "Syarat utama wisuda di Unpam meliputi: Lulus yudisium prodi (bebas seluruh urusan akademik dan administratif), Lunas SPP/UKT (tidak ada tanggungan biaya), Selesai revisi skripsi/tugas akhir, Detail berkas dapat berubah tiap periode. Rincian resminya wajib dicek langsung di wisuda.unpam.ac.id."
+            ]  
+        },
+        {
+            "tag": "daftar wisuda",
+            "patterns": [
+                "Bagaimana cara mendaftar wisuda?",
+                "Bagaimana prosedur pendaftaran wisuda?",
+                "Gimana cara daftar wisuda?",
+                "Di mana melakukan pendaftaran wisuda?",
+                "Pendaftaran wisuda dilakukan di mana?",
+                "Bagaimana proses daftar wisuda?",
+                "Apa langkah untuk mendaftar wisuda?",
+                "Cara melakukan pendaftaran wisuda bagaimana?",
+                "Saya ingin mendaftar wisuda",
+                "Bagaimana cara mengisi pendaftaran wisuda?",
+                "Pendaftaran wisuda melalui apa?",
+                "Kalau mau ikut wisuda cara daftarnya bagaimana?",
+                "Di mana tempat mendaftar wisuda?",
+                "Bagaimana prosedur daftar wisuda?",
+                "Kalau mau ikut wisuda daftar di mana?",
+                "Kalau ingin ikut wisuda harus daftar lewat mana?",
+                "Daftar wisuda dilakukan di mana?",
+                "Saya mau daftar wisuda, mulai dari mana?",
+                "Kalau mau ikut wisuda bagaimana cara daftarnya?",
+                "Bagaimana cara mendaftarkan diri untuk wisuda?",
+                "Tempat pendaftaran wisuda di mana?",
+                "Website untuk daftar wisuda apa?",
+                "Kalau mau mendaftar wisuda lewat website apa?",
+                "Saya ingin ikut wisuda, bagaimana cara mendaftarnya?",
+                "Proses pendaftaran wisuda bagaimana?",
+                "Untuk ikut wisuda harus melakukan pendaftaran di mana?",
+                "Kalau mau wisuda syaratnya apa?",
+                "Kalau mau wisuda harus memenuhi syarat apa?",
+                "Mau wisuda harus memenuhi syarat apa saja?",
+                "Kalau mau ikut wisuda syaratnya apa?",
+                "Untuk ikut wisuda syaratnya apa?",
+                "Kalau ingin wisuda harus memenuhi syarat apa?",
+                "Untuk bisa ikut wisuda harus memenuhi syarat apa?",
+                "Apa saja syarat yang harus dipenuhi sebelum wisuda?",
+                "Sebelum wisuda harus memenuhi syarat apa saja?",
+                "Persyaratan yang harus dipenuhi untuk wisuda apa saja?"
+            ],
+            "responses": [
+                "Pendaftaran wisuda dilakukan melalui wisuda.unpam.ac.id dengan login akun mahasiswa,\n lalu ikuti panduan (isi data, unggah dokumen, dan bayar).\n Keterlambatan pendaftaran menyebabkan mahasiswa harus mendaftar di periode berikutnya."
+            ]
+        },
+        {
+            "tag": "cuti_kuliah",
+            "patterns": [
+                "Bagaimana cara cuti kuliah?",
+                "Bagaimana cara mengambil cuti semester?",
+                "Cara mengajukan cuti kuliah bagaimana?",
+                "Bagaimana prosedur cuti kuliah?",
+                "Bagaimana proses pengajuan cuti semester?",
+                "Saya ingin mengambil cuti kuliah",
+                "Saya ingin mengambil cuti semester",
+                "Saya mau cuti kuliah",
+                "Saya mau mengambil cuti semester",
+                "Apa syarat mengajukan cuti kuliah?",
+                "Di mana mengajukan cuti kuliah?",
+                "Bagaimana pengajuan cuti semester?",
+                "Kalau ingin cuti kuliah harus bagaimana?",
+                "Mau mengambil cuti semester",
+                "Prosedur mengajukan cuti kuliah apa?"
+            ], 
+            "responses":[
+                "Minimal sudah kuliah 2 semester. Diajukan awal semester saat registrasi ulang (alasan jelas & SPP lunas).\n Maksimal 2 kali selama studi. Melebihi batas ini berstatus Drop Out (D.O)"
+            ]
+        },{
+            "tag": "izin_kuliah",
+            "patterns": [
+                "Saya tidak bisa hadir di kelas",
+                "Saya tidak dapat mengikuti perkuliahan",
+                "Saya berhalangan hadir di kelas",
+                "Saya tidak bisa mengikuti kelas",
+                "Saya berhalangan mengikuti perkuliahan",
+                "Kalau tidak bisa hadir di kelas bagaimana?",
+                "Kalau berhalangan hadir saat kuliah bagaimana?",
+                "Bagaimana cara izin tidak hadir di kelas?",
+                "Bagaimana cara meminta izin tidak masuk kelas?",
+                "Kalau sakit dan tidak bisa hadir bagaimana?",
+                "Saya sakit dan tidak bisa mengikuti kelas",
+                "Apa yang harus dilakukan jika tidak bisa hadir?",
+                "Bagaimana jika berhalangan mengikuti kelas?",
+                "Cara mengajukan izin tidak hadir bagaimana?",
+                "Kalau tidak dapat mengikuti perkuliahan harus bagaimana?"
+            ],
+            "responses": [
+                "Mengajukan izin/presensi pengganti via my.unpam.ac.id\n Ketentuan Kehadiran <75% dipastikan mendapatkan nilai D/E.\n Konsekuensi : Wajib mengulang kelas di Semester 7 atau Semester Antara via my.unpam.ac.id."
+            ]
+        },{
+            "tag": "poin_sispema",
+            "patterns":[
+                "Sispema itu apa?",
+                "Apa itu Sispema?",
+                "Sispema merupakan sistem apa?",
+                "Apa fungsi Sispema?",
+                "Sispema digunakan untuk apa?",
+                "Poin Sispema minimal berapa?",
+                "Berapa minimal poin Sispema?",
+                "Berapa poin Sispema untuk sidang?",
+                "Berapa poin yang dibutuhkan sebelum sidang?",
+                "Apakah sidang membutuhkan poin Sispema?",
+                "Benarkah harus memiliki 100 poin Sispema sebelum sidang?",
+                "Bagaimana cara mendapatkan poin Sispema?",
+                "Kegiatan apa yang bisa mendapatkan poin Sispema?",
+                "Apakah sertifikat seminar bisa menambah poin Sispema?",
+                "Poin Sispema diinput di mana?",
+                "Bagaimana cara menginput poin Sispema?",
+                "Kalau poin Sispema belum cukup bagaimana?",
+                "Apakah poin Sispema menjadi syarat sidang?",
+                "Berapa poin yang harus dikumpulkan untuk sidang?",
+                "Sidang skripsi butuh berapa poin?",
+                "Minimal poin untuk sidang berapa?",
+                "Berapa poin Sispema yang diperlukan untuk sidang?",
+                "Kalau mau sidang harus punya berapa poin?",
+                "Apakah Sispema wajib untuk sidang?",
+                "Sertifikat seminar bisa digunakan untuk Sispema?",
+                "Sertifikat pelatihan bisa menambah poin Sispema?",
+                "Sertifikat lomba bisa mendapatkan poin Sispema?",
+                "Kegiatan apa saja yang menghasilkan poin Sispema?",
+                "Bagaimana cara menambah poin Sispema?",
+                "Di mana saya memasukkan poin Sispema?"
+            ],
+            "responses": [
+                "Sebelum sidang skripsi/tugas akhir di Unpam, mahasiswa wajib memiliki minimal 100 poin Sispema.\n Poin diperoleh dari sertifikat kegiatan seperti seminar, pelatihan, atau lomba, kemudian diinput dan divalidasi melalui sispema.unpam.ac.id."
+            ]
+        }
+    ]
+}
